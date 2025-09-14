@@ -1,0 +1,28 @@
+.nav {
+    background: rgb(46, 46, 184);
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+.link {
+    /* padding: 10px; */
+    list-style: none;
+    color: white;
+    text-decoration: none;
+
+}
+
+.link:hover,
+.active {
+    border-bottom: 3px solid #95bcf0;
+    color: #95bcf0;
+    padding-bottom: 0.25rem;
+}
